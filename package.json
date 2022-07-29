@@ -1,5 +1,5 @@
 {
-  "name": "SCG",
+  "name": "SCG-Nuxt",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -7,22 +7,25 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "lint": "eslint --ext .ts,.js,.vue ."
+    "test": "jest"
   },
   "dependencies": {
     "ant-design-vue": "^1.7.8",
     "core-js": "^3.19.3",
     "nuxt": "^2.15.8",
     "vue": "^2.6.14",
-    "vue-property-decorator": "^9.1.2",
     "vue-server-renderer": "^2.6.14",
     "vue-template-compiler": "^2.6.14",
     "webpack": "^4.46.0"
   },
   "devDependencies": {
-    "@nuxt/types": "^2.13.2",
+    "@nuxt/types": "^2.15.8",
     "@nuxt/typescript-build": "^2.1.0",
-    "@nuxtjs/eslint-config-typescript": "^10.0.0",
-    "vuex-module-decorators": "^2.0.0"
+    "@vue/test-utils": "^1.3.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^27.4.4",
+    "jest": "^27.4.4",
+    "ts-jest": "^27.1.1",
+    "vue-jest": "^3.0.4"
   }
 }

@@ -1,12 +1,11 @@
-<script lang="ts">
-import { Component, Vue } from 'vue-property-decorator';
-import { getModule } from 'vuex-module-decorators';
-import { UserModule } from '~/store/modules';
+<template>
+  <Tutorial />
+</template>
 
-@Component
-export default class extends Vue {
-    public created() {
-        const MyModuleInstance = getModule(UserModule, this.$store);
-    }
-}
+<script lang="ts">
+import { defineComponent } from 'vue'
+
+export default defineComponent({
+  name: 'IndexPage'
+})
 </script>

@@ -1,4 +1,4 @@
-# SCG
+# SCG-Nuxt
 
 ## Build Setup
 
